@@ -1,0 +1,6 @@
+data/
+venv/
+cloud_test/
+__pycache__/
+.ipynb_checkpoints/
+*.csv

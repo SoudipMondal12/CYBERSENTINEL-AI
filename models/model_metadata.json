@@ -1,0 +1,29 @@
+{
+    "best_model": "XGBoost",
+    "selection_metric": "PR-AUC",
+    "threshold": 0.7500000000000002,
+    "target_mapping": {
+        "0": "NOT ATTACK",
+        "1": "ATTACK"
+    },
+    "features": [
+        "Destination Port",
+        "Flow Duration",
+        "Total Fwd Packets",
+        "Total Backward Packets",
+        "Total Length of Fwd Packets",
+        "Total Length of Bwd Packets",
+        "Flow Bytes/s",
+        "Flow Packets/s",
+        "Fwd Packets/s",
+        "Bwd Packets/s",
+        "SYN Flag Count",
+        "ACK Flag Count",
+        "RST Flag Count",
+        "Average Packet Size",
+        "Min Packet Length",
+        "Max Packet Length",
+        "Packet Length Mean",
+        "Packet Length Std"
+    ]
+}
